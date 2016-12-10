@@ -2,6 +2,8 @@ d:assets:0:application/unknown
 i:badlogic.jpg:68465:image/jpeg
 t:cool.fnt:11233:application/unknown
 i:cool.png:14016:image/png
+t:pack.atlas:363:application/unknown
+i:pack.png:4034:image/png
 t:com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl:770:application/unknown
 t:com/badlogic/gdx/graphics/g3d/particles/particles.vertex.glsl:2886:application/unknown
 t:com/badlogic/gdx/graphics/g3d/shaders/default.fragment.glsl:5163:application/unknown
