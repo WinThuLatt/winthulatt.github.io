@@ -3,12 +3,18 @@
 <meta charset="UTF-8">
 <title>Win Thu Latt</title>
 <style>
+@font-face {
+  font-family: 'Cambria';
+  src: url('./Cambria.ttf');
+  font-weight: bold;
+}
+
 body {
     color: #000000;
     background: #EEEEEE;
-    font: 1.1em "Times New Roman";
     line-height: 1.2;
     margin: 40px 0;
+    font-family: Cambria, serif;
 }
 #resume {
     margin: 0 auto;
@@ -22,19 +28,27 @@ body {
 h1 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 200%;
+    font-size: 150%;
     margin: 0;
     padding: 0;
 }
 h2 {
     border-bottom: 1px solid #000000;
     text-transform: uppercase;
-    font-size: 130%;
+    font-size: 110%;
     margin: 1em 0 0 0;
     padding: 0;
 }
 h3 {
     font-size: 100%;
+    margin: 0.8em 0 0.3em 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+h4 {
+    /* font-size: 100%; */
+    font-weight: 100 !important;
     margin: 0.8em 0 0.3em 0;
     padding: 0;
     display: flex;
@@ -123,10 +137,7 @@ h1 + ul + p {
 </head>
 <body>
 <div id="resume">
-<!-- The (first) h1 will be used as the <title> of the HTML page -->
 <h1>Win Thu Latt</h1>
-<!-- The unordered list immediately after the h1 will be formatted on a single
-line. It is intended to be used for contact details -->
 <ul>
 <li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#119;&#105;&#110;&#116;&#104;&#117;&#108;&#97;&#116;&#116;&#50;&#48;&#49;&#57;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#119;&#105;&#110;&#116;&#104;&#117;&#108;&#97;&#116;&#116;&#50;&#48;&#49;&#57;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
 <li>+65 88699311</li>
@@ -138,59 +149,63 @@ is intended to be used for a short summary. -->
 <p>Experienced Software Engineer with hands-on knowledge working with various 
 coding languages - developing desktop and web applications along with CI/CD 
 pipelines using Jenkins and GitLab</p>
+<h2>Tools</h2>
+<p>C#, Java, C++, Bash, Spring Boot, Gitlab, Gitlab Runners, CI/CD, HTTP(S), TLS, mTLS,
+TCP, .NET 6, MVVM, Containers, Docker, SSH</p>
 <h2>Experience</h2>
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
-<h3><span>Software Development Engineer, Thales DIS Singapore</span> <span>Oct 2019 &ndash; Current</span></h3>
+<h3>Software Development Engineer, Thales DIS Singapore <span>Oct 2019 &ndash; Current</span></h3>
+<!-- Optional: Paragraph for providing a single idea in recruiters head on -->
+<!-- what you're able to deliver -->
+
+<p>Lead engineer driving the feature development of 3 critical projects
+supporting global critical supply chain systems.</p>
 <ul>
-<li>CI/CD Engineer<ul>
-<li>Responsible for enhancing existing pipelines as well as creating new pipelines from scratch for different projects</li>
-<li>Created new GitLab CI/CD pipelines using Docker containers as runners</li>
+<li>Augmenting the security in existing systems by creating a Java proxy layer
+  which introduces mTLS</li>
+<li>The middleware application receives external client requests while ensuring
+  the trust in their processes. </li>
+<li>Extended the internal web-application to support mTLS which uses Spring
+  Boot.</li>
+<li>Wrote and extended the PRD for the Java application and communicated the
+  project timeline to the stakeholders.</li>
+<li>Introduced new pipelines to ensure new development features can be
+  auto-deployed using Gitlab Runners. </li>
+<li>Managed the deployment and lifecycle of Gitlab Runners which uses the
+  container runtime</li>
+<li>Extended the pipelines to existing projects which cut down the runner
+  orchestration time significantly using a very simple bash script over SSH</li>
+<li>Provide several critical bug fixes for the smartcard personalization quality
+  control application.</li>
+<li>Developed extensions to ensure efficient shortcuts which improved workflow
+  for our global users.</li>
+<li>Migrated outdated carrier reprinting desktop application to .NET 6.0,
+  improving the reprinting performance by 40%</li>
+<li>Re-architected the core project structure using MVVM.</li>
+<li>Implemented design patterns to keep a maintainable code base.</li>
+<li>Developed Oracle User Management program and integrated with NSIS installer
+  script.</li>
+<li>Wrote extensive documentation for the project upgrade which is are actively
+  being used; I continue to maintain them</li>
+<li>Ensured standard development practices such as unit tests and functional
+  tests are available for legacy systems as well as new application to prevent
+  regression. </li>
 </ul>
-</li>
-<li>C# Development Engineer<ul>
-<li>Maintain and support smartcard personalization quality control application, carrier reprinting application and develop extensions</li>
-<li>Developed feature improvements and plugins deployed to production sites across the world with no rework requests</li>
-<li>Migrated outdated carrier reprinting desktop application to .NET 6.0, improving the reprinting performance by 40%</li>
-<li>Designed core project structure using MVVM concept and implemented design patterns to keep code clean and maintainable</li>
-<li>Developed Oracle User Management program and integrated with NSIS installer script</li>
-<li>Developed additional tools to improve developer efficiency with documentation</li>
-<li>Developed unit tests and functional tests to prevent regression</li>
-</ul>
-</li>
-<li>C++ Development Engineer<ul>
-<li>Developed new UI components and features </li>
-<li>Implemented bug fixes</li>
-</ul>
-</li>
-<li>Java Development Engineer<ul>
-<li>Developed new backend features and REST APIs for existing web application</li>
-<li>Developed new SpringBoot application with mTLS security features</li>
-</ul>
-</li>
-</ul>
-<h3><span>Senior Software Engineer, Ecquaria Technologies Pte. Ltd. Singapore</span> <span>Jan 2019 &ndash; Sep 2019</span></h3>
-<ul>
-<li>
+<h3>Senior Software Engineer, Ecquaria Technologies Pte. Ltd. Singapore <span>Jan 2019 &ndash; Sep 2019</span></h3>
 <p>Team Lead for Business Intelligence related topics</p>
 <ul>
 <li>Responsible for the documentation of use cases and various reporting logic (charts and diagrams)</li>
 <li>OLAP Database design for Cognos Reporting Tool</li>
 <li>Contributed in designing ETL logic and data synchronization between OLTP and OLAP databases</li>
 </ul>
-</li>
-</ul>
-<h3><span>Software Engineer, Ecquaria Technologies Pte. Ltd. Singapore</span> <span>Jan 2019 &ndash; Sep 2019</span></h3>
+<h3>Software Engineer, Ecquaria Technologies Pte. Ltd. Singapore <span>Jan 2019 &ndash; Sep 2019</span></h3>
+<h4>Team Lead for Business Intelligence related topics <span>Jun 2018 - Jan 2019</span></h4>
 <ul>
-<li>
-<p>Team Lead for Business Intelligence related topics (Jun 2018 - Jan 2019)</p>
-</li>
-<li>
-<p>Responsible for the documentation of use cases and various reporting logic (charts and diagrams)</p>
-</li>
+<li>Responsible for the documentation of use cases and various reporting logic (charts and diagrams)</li>
 <li>OLAP Database design for Cognos Reporting Tool</li>
 </ul>
-<p>Data Migration Engineer (Feb 2017 - Jan 2018)</p>
+<h4>Data Migration Engineer <span>Feb 2017 - Jan 2018</span></h4>
 <ul>
 <li>Liased with customers to document existing data format and transformation rules</li>
 <li>Developed Python programs to parse, clean and transform data using Pandas Framework</li>
@@ -198,11 +213,11 @@ hand -->
 <li>Developed python scripts to port DML data to MSSQL reliably</li>
 </ul>
 <h2>Education</h2>
-<h3><span>Singapore University of Technology and Design, Singapore - <br/>Bachelor of Engineering in Information Systems Technology and Design</span> <span>2013 &ndash; 2016</span></h3>
+<h3>Singapore University of Technoogy and Design, Singapore - <br/>Bachelor of Engineering in Information Systems Technology and Design<span>2013 &ndash; 2016</span></h3>
 <ul>
 <li>Graduated with Honors majoring in Artificial Intelligence and Business Analytics</li>
 </ul>
-<h3><span>Ngee Ann Polytechnic, Singapore - Diploma in Electronic and Computer Engineering</span> <span>2009 &ndash; 2012</span></h3>
+<h3>Ngee Ann Polytechnic, Singapore - Diploma in Electronic and Computer Engineering <span>2009 &ndash; 2012</span></h3>
 <h2>Skills</h2>
 <ul>
 <li>HTML, CSS, JavaScript, Java, C#, WPF, SQL, Python</li>
