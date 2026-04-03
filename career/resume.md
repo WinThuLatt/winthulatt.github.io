@@ -1,8 +1,5 @@
-<!-- The (first) h1 will be used as the <title> of the HTML page -->
 # Win Thu Latt
 
-<!-- The unordered list immediately after the h1 will be formatted on a single
-line. It is intended to be used for contact details -->
 - <winthulatt2019@gmail.com>
 -  +65 88699311
 - [Win Thu Latt LinkedIn](https://www.linkedin.com/in/winthulatt/)
@@ -14,48 +11,70 @@ Experienced Software Engineer with hands-on knowledge working with various
 coding languages - developing desktop and web applications along with CI/CD 
 pipelines using Jenkins and GitLab
 
+## Tools
+
+C#, Java, C++, Bash, Spring Boot, Gitlab, Gitlab Runners, CI/CD, HTTP(S), TLS, mTLS,
+TCP, .NET 6, MVVM, Containers, Docker, SSH
+
 ## Experience
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
-### <span>Software Development Engineer, Thales DIS Singapore</span> <span>Oct 2019 -- Current</span>
+### Software Development Engineer, Thales DIS Singapore <span>Oct 2019 -- Current</span>
+
+<!-- Optional: Paragraph for providing a single idea in recruiters head on -->
+<!-- what you're able to deliver -->
+
+Lead engineer driving the feature development of 3 critical projects
+supporting global critical supply chain systems.
+
+* Augmenting the security in existing systems by creating a Java proxy layer
+  which introduces mTLS
+* The middleware application receives external client requests while ensuring
+  the trust in their processes. 
+* Extended the internal web-application to support mTLS which uses Spring
+  Boot.
+* Wrote and extended the PRD for the Java application and communicated the
+  project timeline to the stakeholders.
+* Introduced new pipelines to ensure new development features can be
+  auto-deployed using Gitlab Runners. 
+* Managed the deployment and lifecycle of Gitlab Runners which uses the
+  container runtime
+* Extended the pipelines to existing projects which cut down the runner
+  orchestration time significantly using a very simple bash script over SSH
+* Provide several critical bug fixes for the smartcard personalization quality
+  control application.
+* Developed extensions to ensure efficient shortcuts which improved workflow
+  for our global users.
+* Migrated outdated carrier reprinting desktop application to .NET 6.0,
+  improving the reprinting performance by 40%
+* Re-architected the core project structure using MVVM.
+* Implemented design patterns to keep a maintainable code base.
+* Developed Oracle User Management program and integrated with NSIS installer
+  script.
+* Wrote extensive documentation for the project upgrade which is are actively
+  being used; I continue to maintain them
+* Ensured standard development practices such as unit tests and functional
+  tests are available for legacy systems as well as new application to prevent
+  regression. 
+
+### Senior Software Engineer, Ecquaria Technologies Pte. Ltd. Singapore <span>Jan 2019 -- Sep 2019</span>
+
+Team Lead for Business Intelligence related topics
+
+* Responsible for the documentation of use cases and various reporting logic (charts and diagrams)
+* OLAP Database design for Cognos Reporting Tool
+* Contributed in designing ETL logic and data synchronization between OLTP and OLAP databases
 
 
- * CI/CD Engineer
-    * Responsible for enhancing existing pipelines as well as creating new pipelines from scratch for different projects
-    * Created new GitLab CI/CD pipelines using Docker containers as runners
- * C# Development Engineer
-    * Maintain and support smartcard personalization quality control application, carrier reprinting application and develop extensions
-    * Developed feature improvements and plugins deployed to production sites across the world with no rework requests
-    * Migrated outdated carrier reprinting desktop application to .NET 6.0, improving the reprinting performance by 40%
-    * Designed core project structure using MVVM concept and implemented design patterns to keep code clean and maintainable
-    * Developed Oracle User Management program and integrated with NSIS installer script
-    * Developed additional tools to improve developer efficiency with documentation
-    * Developed unit tests and functional tests to prevent regression
-  * C++ Development Engineer
-    * Developed new UI components and features 
-    * Implemented bug fixes
-  * Java Development Engineer
-    * Developed new backend features and REST APIs for existing web application
-    * Developed new SpringBoot application with mTLS security features
+### Software Engineer, Ecquaria Technologies Pte. Ltd. Singapore <span>Jan 2019 -- Sep 2019</span>
 
-### <span>Senior Software Engineer, Ecquaria Technologies Pte. Ltd. Singapore</span> <span>Jan 2019 -- Sep 2019</span>
-
-  * Team Lead for Business Intelligence related topics
-
-    * Responsible for the documentation of use cases and various reporting logic (charts and diagrams)
-    * OLAP Database design for Cognos Reporting Tool
-    * Contributed in designing ETL logic and data synchronization between OLTP and OLAP databases
-
-
-### <span>Software Engineer, Ecquaria Technologies Pte. Ltd. Singapore</span> <span>Jan 2019 -- Sep 2019</span>
-
-* Team Lead for Business Intelligence related topics (Jun 2018 - Jan 2019)
+#### Team Lead for Business Intelligence related topics <span>Jun 2018 - Jan 2019</span>
 
   * Responsible for the documentation of use cases and various reporting logic (charts and diagrams)
   * OLAP Database design for Cognos Reporting Tool
 
-Data Migration Engineer (Feb 2017 - Jan 2018)
+#### Data Migration Engineer <span>Feb 2017 - Jan 2018</span>
  
   * Liased with customers to document existing data format and transformation rules
   * Developed Python programs to parse, clean and transform data using Pandas Framework
@@ -64,11 +83,11 @@ Data Migration Engineer (Feb 2017 - Jan 2018)
   
 ## Education
 
-### <span>Singapore University of Technology and Design, Singapore - <br/>Bachelor of Engineering in Information Systems Technology and Design</span> <span>2013 -- 2016</span>
+### Singapore University of Technoogy and Design, Singapore - <br/>Bachelor of Engineering in Information Systems Technology and Design<span>2013 -- 2016</span>
 
   * Graduated with Honors majoring in Artificial Intelligence and Business Analytics
 
-### <span>Ngee Ann Polytechnic, Singapore - Diploma in Electronic and Computer Engineering</span> <span>2009 -- 2012</span>
+### Ngee Ann Polytechnic, Singapore - Diploma in Electronic and Computer Engineering <span>2009 -- 2012</span>
 
 
 ## Skills
