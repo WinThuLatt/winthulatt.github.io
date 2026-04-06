@@ -34,10 +34,10 @@ hand -->
 <!-- what you're able to deliver -->
 
 Lead engineer driving the feature development of 3 critical projects
-supporting global critical supply chain systems.
+supporting global critical supply chain systems built using C#, C++, and Java.
 
-* Augmenting the security in existing systems by creating a Java proxy layer
-  which introduces mTLS
+* Augmenting the security in existing systems by designing and building a Java
+  proxy layer which introduces mTLS.
 * The middleware application receives external client requests while ensuring
   the trust in their processes. 
 * Extended the internal web-application to support mTLS which uses Spring
